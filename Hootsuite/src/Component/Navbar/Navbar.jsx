@@ -6,19 +6,19 @@ const Navbar = () => {
     return (
         <div className={styles.nav}>
             <div className={styles.left}>
-                <img src={logo} alt="" />
-                <ul>
-                    <li><a href="#">Platform</a></li>
-                    <li><a href="#">Plans</a></li>
-                    <li><a href="#">Enterprise</a></li>
-                    <li><a href="#">Resources</a></li>
-                    <li><a href="#">Education</a></li>
+                <img src={logo} alt="Logo" className={styles.logo} />
+                <ul className={styles.menu}>
+                    <li><a href="#" className={styles.link}>Platform</a></li>
+                    <li><a href="#" className={styles.link}>Plans</a></li>
+                    <li><a href="#" className={styles.link}>Enterprise</a></li>
+                    <li><a href="#" className={styles.link}>Resources</a></li>
+                    <li><a href="#" className={styles.link}>Education</a></li>
                 </ul>
             </div>
             <div className={styles.right}>
-                <a href="#">Contact Us</a>
-                <a href="#">Log in</a>
-                <button>SignUp</button>
+                <a href="#" className={styles.link}>Contact Us</a>
+                <a href="#" className={styles.link}>Log in</a>
+                <button className={styles.button}>Sign Up</button>
             </div>
         </div>
     );

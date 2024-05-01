@@ -1,0 +1,31 @@
+.cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 30%;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cardImage {
+    width: 50%;
+}
+
+.cardContent {
+    text-align: center;
+}
+
+.cardNumber {
+    font-size: 2rem;
+    color: #333;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    color: #555;
+}
