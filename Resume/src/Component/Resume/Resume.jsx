@@ -9,8 +9,9 @@ function Resume() {
     <div className={styles.outerContainer}>
       <div className={styles.centerContainer}>
        
-        <div className={styles.name}>Akanksha Dubey</div>
-       
+        <div className={styles.name}>Akanksha Dubey
+        <div className={styles.contactInfo}>Email: example@example.com | Phone: +1234567890</div>
+        </div>
         <div className={styles.summary}>
           Summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec velit nec augue hendrerit congue.
         </div>

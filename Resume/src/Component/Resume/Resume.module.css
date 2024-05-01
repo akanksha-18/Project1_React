@@ -21,8 +21,13 @@
     color: #333333;
     margin-bottom: 20px;
     background-color: rgb(205, 241, 241);
+    padding: 10px 5px;
   }
-  
+  .contactInfo {
+    font-size: 18px;
+    color: #555555;
+   
+  }
   .summary {
     font-size: 18px;
     color: #555555;
