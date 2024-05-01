@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "../Cards/Cards.module.css";
-import first from "../../Assets/first.png";
+import first from "../../Assets/first.jpg";
 import book from "../../Assets/book.png";
-import people from "../../Assets/people.png";
+import people from "../../Assets/people.jpg";
 
 
 const Cards = () => {
